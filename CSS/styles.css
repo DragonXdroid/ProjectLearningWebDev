@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.bg-gray-900 {
+    background-color: #121826;
+}
+
+.text-white {
+   color: white; 
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.m-8 {
+    margin: 8px;
+}
+
+.header{
+    padding: 18px 12px;
+    font-family: 'Lato', sans-serif;
+}
+
+#header-links > div > a {
+    padding: 8px 16px;
+}
