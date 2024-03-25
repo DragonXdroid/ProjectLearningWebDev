@@ -1,4 +1,6 @@
 body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     margin: 0;
 }
 
@@ -6,8 +8,24 @@ body {
     background-color: #121826;
 }
 
+.bg-brand-teal {
+    background-color: #539D98;
+}
+
+.bg-white {
+    background-color: white;
+}
+
 .text-white {
    color: white; 
+}
+
+.text-brand-teal{
+    color: #90CAC7;
+}
+
+.text-brand-teal-dark{
+    color: #539D98;
 }
 
 .block {
@@ -30,6 +48,11 @@ body {
     display: flex;
 }
 
+.mx-auto {
+    margin-left: auto ;
+    margin-right: auto;
+}
+
 .justify-center{
     justify-content: center;
 }
@@ -46,11 +69,59 @@ body {
     margin: 8px;
 }
 
-.header{
-    padding: 18px 12px;
-    font-family: 'Lato', sans-serif;
+.full-width {
+    width: 100%;
 }
+
+header{
+    padding: 18px 12px;
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+     
+}
+
 
 #header-links > div > a {
     padding: 8px 16px;
+    text-decoration: none;
 }
+
+.border-none {
+    border: none;
+}
+
+#sign-up {
+    border-radius: 9999px;
+    padding: 12px 24px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px ;
+    font-weight: bold;
+
+}
+
+
+.hero-video {
+    top: -98px;
+    z-index: -1;
+    min-height: px;
+    object-fit: cover;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
